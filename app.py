@@ -7,6 +7,7 @@ import cv2
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 import pathlib
+import pandas as pd
 
 
 app = Flask(__name__, static_folder='static')
